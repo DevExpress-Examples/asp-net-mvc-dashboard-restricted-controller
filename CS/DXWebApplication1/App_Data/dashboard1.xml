@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Text="New Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="DataSource1">
+      <Name>Employees</Name>
+      <Connection Name="DXWebApplication1.Properties.Settings.connection1" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="Employees">
+        <Tables>
+          <Table Name="Employees" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="Employees" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Pivot ComponentName="pivotDashboardItem1" Name="Pivot 1" DataSource="DataSource1" DataMember="Employees">
+      <DataItems>
+        <Measure DataMember="ReportsTo" DefaultId="DataItem0" />
+        <Dimension DataMember="City" DefaultId="DataItem1" />
+      </DataItems>
+      <Columns>
+        <Column DefaultId="DataItem1" />
+      </Columns>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pivotDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

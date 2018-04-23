@@ -1,0 +1,11 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+@Html.DevExpress().Dashboard(settings =>
+{
+    settings.Name = "Dashboard";
+    settings.ControllerName = "MyDashboard";
+}).GetHtml()
+
+
+
