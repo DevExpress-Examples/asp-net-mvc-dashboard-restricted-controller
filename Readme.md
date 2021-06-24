@@ -6,11 +6,10 @@
 * [Global.asax](./CS/DXWebApplication1/Global.asax)
 * [Index.cshtml](./CS/DXWebApplication1/Views/Home/Index.cshtml)
 <!-- default file list end -->
-# How to create a custom dashboard controller
+# Dashboard for MVC - How to create a custom dashboard controller
 
 
-This example illustrates how to create a custom dashboard controller for <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardWebASPxDashboardtopic">ASPxDashboard</a> in an MVC solution. 
+This example illustrates how to create a custom dashboard controller for [ASP.NET MVC Dashboard](https://docs.devexpress.com/Dashboard/16977/web-dashboard/aspnet-mvc-dashboard-extension?p=netframework) in an MVC solution.
 
-<br/>
 
 
