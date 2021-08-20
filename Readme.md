@@ -17,3 +17,10 @@ In this example, the custom controller name is `DefaultDashboard`.
 ## Documentation
 
 - [DashboardController](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.DashboardController)
+
+## More Examples
+
+- [Dashboard for ASP.NET Core - How to create a custom dashboard controller](https://github.com/DevExpress-Examples/dashboard-for-asp-net-core-custom-dashboard-controller)
+- [Dashboard for MVC - How to use separate server-side settings for different views](dashboard-for-mvc-use-separate-server-side-settings-for-different-views)
+- [Dashboard for MVC - How to implement multi-tenant Dashboard architecture](https://github.com/DevExpress-Examples/DashboardUserBasedMVC)
+- [Dashboard for MVC - How to load different data based on the current user](https://github.com/DevExpress-Examples/DashboardDifferentUserDataMVC)
