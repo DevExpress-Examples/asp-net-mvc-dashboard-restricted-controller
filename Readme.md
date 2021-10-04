@@ -3,13 +3,6 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T526629)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [DashboardConfig.cs](./CS/MvcCustomController/App_Start/DashboardConfig.cs#L12)
-* [DefaultDashboardController.cs](./CS/MvcCustomController/Controllers/DefaultDashboardController.cs)
-* [Index.cshtml](./CS/MvcCustomController/Views/Home/Index.cshtml#L8)
-<!-- default file list end -->
 
 # Dashboard for MVC - How to create a custom dashboard controller
 
@@ -18,6 +11,15 @@ The example shows how to create a custom dashboard controller for the [Web Dashb
 Inherit the [DashboardController](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.DashboardController) class to create a custom dashboard controller. Pass its name to the [RouteCollectionExtension.MapDashboardRoute](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.RouteCollectionExtension.MapDashboardRoute(System.Web.Routing.RouteCollection-System.String-System.String-System.String--)) method when you configure routing and to the [DashboardExtensionSettings.ControllerName](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.DashboardExtensionSettings.ControllerName) property when you configure a control on the page. 
 
 In this example, the custom controller name is `DefaultDashboard`.
+
+
+<!-- default file list -->
+## Files to Look At
+
+* [DashboardConfig.cs](./CS/MvcCustomController/App_Start/DashboardConfig.cs#L12)
+* [DefaultDashboardController.cs](./CS/MvcCustomController/Controllers/DefaultDashboardController.cs)
+* [Index.cshtml](./CS/MvcCustomController/Views/Home/Index.cshtml#L8)
+<!-- default file list end -->
 
 ## Documentation
 
