@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Dashboard for MVC - How to create a custom dashboard controller
+# Dashboard for MVC - How to Create a Restricted Dashboard Controller
 
 You can do one of the following to prevent inadvertent or unauthorized dashboard modifications and protect dashboards stored on a server:
 
