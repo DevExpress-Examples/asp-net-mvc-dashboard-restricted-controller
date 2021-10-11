@@ -1,6 +1,7 @@
 ﻿using DevExpress.DashboardWeb.Mvc;
 
-namespace MvcCustomController {
-    public class DefaultDashboardController : DashboardController {
+namespace MvcCustomController.Controllers {
+    public class DefaultDashboardController : RestrictedDashboardController {
+
     }
 }
