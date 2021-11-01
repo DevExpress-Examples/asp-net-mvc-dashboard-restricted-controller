@@ -12,11 +12,10 @@ namespace DXWebApplication1
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
-    public class MvcApplication : System.Web.HttpApplication
-    {
-        protected void Application_Start()
-        {
-            AreaRegistration.RegisterAllAreas();
+    public class MvcApplication : System.Web.HttpApplication {
+        protected void Application_Start() {
+            AreaRegistration.RegisterAllAreas(); 
+            ControllerBuilder.Current.SetControllerFactory(typeof(RestrictedControllerFactory));
 
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -30,8 +29,7 @@ namespace DXWebApplication1
 
         }
 
-        protected void Application_Error(object sender, EventArgs e)
-        {
+        protected void Application_Error(object sender, EventArgs e) {
             Exception exception = System.Web.HttpContext.Current.Server.GetLastError();
             //TODO: Handle Exception
         }
