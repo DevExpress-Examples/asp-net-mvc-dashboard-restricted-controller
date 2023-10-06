@@ -21,13 +21,11 @@ Inherit the [DashboardController](https://docs.devexpress.com/Dashboard/DevExpre
 
 In this example, the custom controller name is `DefaultDashboard`.
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [DashboardConfig.cs](./CS/MvcCustomController/App_Start/DashboardConfig.cs#L12) (VB: [DashboardConfig.vb](./VB/MvcCustomController/App_Start/DashboardConfig.vb#L10))
 * [DefaultDashboardController.cs](./CS/MvcCustomController/Controllers/DefaultDashboardController.cs)  (VB: [DefaultDashboardController.vb](./VB/MvcCustomController/Controllers/DefaultDashboardController.vb))
 * [Index.cshtml](./CS/MvcCustomController/Views/Home/Index.cshtml#L7)  (VB: [Index.vbhtml](./VB/MvcCustomController/Views/Home/Index.vbhtml#L6))
-<!-- default file list end -->
 
 ## Documentation
 
